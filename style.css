@@ -24,6 +24,12 @@ nav{
     float:left;
     display:inline;
 }
+item{
+    display:block;
+}
+#contact item+item{
+    display:inline;
+}
 #websites{
     float:right;
 }
